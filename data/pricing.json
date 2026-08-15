@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "lastRegistryReview": "2026-08-15",
+  "entries": [
+    { "modelId": "gpt-5.6-luna", "status": "verified-source", "source": "https://openai.com/api/pricing/", "reviewed": "2026-08-15" },
+    { "modelId": "gpt-5-mini", "status": "verified-source", "source": "https://openai.com/api/pricing/", "reviewed": "2026-08-15" },
+    { "modelId": "gpt-5-nano", "status": "verified-source", "source": "https://openai.com/api/pricing/", "reviewed": "2026-08-15" },
+    { "modelId": "gemini-3.6-flash", "status": "verify-before-launch", "source": "https://ai.google.dev/gemini-api/docs/pricing", "reviewed": "2026-08-15" },
+    { "modelId": "claude-sonnet-example", "status": "verify-before-launch", "source": "https://www.anthropic.com/pricing#api", "reviewed": "2026-08-15" },
+    { "modelId": "deepseek-estimate", "status": "estimate-only", "source": "https://api-docs.deepseek.com/quick_start/pricing", "reviewed": "2026-08-15" }
+  ]
+}

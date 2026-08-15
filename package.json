@@ -1,0 +1,27 @@
+{
+  "name": "tokenorbit",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "validate:pricing": "node scripts/validate-pricing.mjs"
+  },
+  "dependencies": {
+    "js-tiktoken": "^1.0.21",
+    "next": "^15.5.23",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.57",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.9.2"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
+  }
+}
