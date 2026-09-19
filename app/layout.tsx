@@ -13,4 +13,24 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'TokenOrbit — AI Token Counter & Cost Calculator', description: 'Estimate AI tokens, context usage and LLM costs.' },
   icons: { icon: '/icon.svg' }
 };
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang="en"><body>{children}</body></html>; }
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="en">
+      <body>
+        {children}
+        <div
+          style={{
+            borderTop: '1px solid var(--border)',
+            padding: '14px 16px',
+            textAlign: 'center',
+            color: 'var(--muted)',
+            fontSize: '13px',
+          }}
+        >
+          Developed by Ayesha
+        </div>
+      </body>
+    </html>
+  );
+}
